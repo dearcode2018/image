@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.hua</groupId>
+		<artifactId>image-entire</artifactId>
+		<version>0.0.1</version>
+	</parent>	
+	<artifactId>zxing</artifactId>
+	<packaging>jar</packaging>
+	<name>zxing</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<image.version>0.0.1</image.version>
+		<zxing.version>3.2.1</zxing.version>		
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.hua</groupId>
+			<artifactId>image</artifactId>
+			<version>${image.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>core</artifactId>
+			<version>${zxing.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>javase</artifactId>
+			<version>${zxing.version}</version>
+		</dependency>		
+		
+<!-- 		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>zxingorg</artifactId>
+			<version>${zxing.version}</version>
+		</dependency>	 -->
+								
+	</dependencies>
+
+</project>
